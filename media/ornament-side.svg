@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 400" width="90" height="400" fill="none">
+  <g stroke="#c9a24d" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.8">
+    <!-- undulating vine, seamless top to bottom -->
+    <path d="M30 0c22 34 22 66 0 100S8 166 30 200s22 66 0 100 -22 66 0 100"/>
+    <path d="M38 0c18 30 18 62 0 96s-18 70 0 104 18 66 0 100 -18 66 0 100" opacity=".45"/>
+    <!-- leaves -->
+    <path d="M30 40c14-10 26-6 34 4-12 10-28 8-34-4z"/>
+    <path d="M22 100c-12-10-24-6-32 4 12 10 26 8 32-4z"/>
+    <path d="M30 160c14-10 26-6 34 4-12 10-28 8-34-4z"/>
+    <path d="M22 220c-12-10-24-6-32 4 12 10 26 8 32-4z"/>
+    <path d="M30 280c14-10 26-6 34 4-12 10-28 8-34-4z"/>
+    <path d="M22 340c-12-10-24-6-32 4 12 10 26 8 32-4z"/>
+    <!-- blossoms -->
+    <circle cx="30" cy="20" r="3.6"/>
+    <circle cx="16" cy="70" r="3"/>
+    <circle cx="30" cy="130" r="3.6"/>
+    <circle cx="16" cy="190" r="3"/>
+    <circle cx="30" cy="250" r="3.6"/>
+    <circle cx="16" cy="310" r="3"/>
+    <circle cx="30" cy="370" r="3.6"/>
+    <!-- tendrils -->
+    <path d="M30 66c10 6 16 16 14 28" opacity=".5"/>
+    <path d="M28 186c-10 6-16 16-14 28" opacity=".5"/>
+    <path d="M30 306c10 6 16 16 14 28" opacity=".5"/>
+  </g>
+</svg>

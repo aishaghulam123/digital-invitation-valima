@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Areeba &amp; Zayan — Valima · The Evening Awaits</title>
+<meta name="description" content="An evening to remember. Areeba &amp; Zayan invite you to their Valima on 18 November 2026, 9:00 PM, The Garden Courtyard, Karachi." />
+<meta property="og:title" content="Areeba &amp; Zayan — Valima" />
+<meta property="og:description" content="An evening to remember. 18 November 2026 · 9:00 PM · The Garden Courtyard, Karachi." />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="vendor/aos.css" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<canvas id="atmosphere" aria-hidden="true"></canvas>
+<div class="grain" aria-hidden="true"></div>
+<div class="frame-side frame-side--left" aria-hidden="true"></div>
+<div class="frame-side frame-side--right" aria-hidden="true"></div>
+
+<main id="scroll-root">
+  <div class="frame-top" aria-hidden="true"></div>
+
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="hero__media" aria-hidden="true">
+      <!-- Drop your own cinematic loop at media/evening.mp4 and uncomment:
+      <video class="hero__video" autoplay muted loop playsinline poster="media/evening.jpg">
+        <source src="media/evening.mp4" type="video/mp4" />
+      </video> -->
+      <img class="hero__still" src="media/evening.jpg" alt="" />
+      <div class="hero__veil"></div>
+    </div>
+
+    <div class="hero__inner">
+      <p class="eyebrow" id="heroEyebrow">The evening awaits</p>
+      <h1 class="hero__names">
+        <span class="sweep" data-sweep="0">Areeba</span>
+        <span class="amp sweep" data-sweep="1">&amp;</span>
+        <span class="sweep" data-sweep="2">Zayan</span>
+      </h1>
+      <p class="hero__word sweep" data-sweep="3">Valima</p>
+      <p class="hero__line" id="heroLine">An evening to remember</p>
+      <p class="hero__tag">#AreebaFoundHerZayan</p>
+    </div>
+
+    <div class="hero__lightsweep" aria-hidden="true"></div>
+    <div class="scroll-hint" aria-hidden="true"><span></span></div>
+  </section>
+
+  <!-- ============ MEMORY ============ -->
+  <section class="memory" id="memory">
+    <p class="label">A moment · A memory</p>
+    <h2 class="memory__head">
+      <span class="lineMask"><span>Some moments</span></span>
+      <span class="lineMask"><span>become memories.</span></span>
+    </h2>
+    <p class="memory__body" data-aos="fade" data-aos-duration="1400">
+      From the first yes to the Nikah, from celebrations to this evening,
+      some moments become the memories we carry forever.
+    </p>
+    <p class="memory__close">
+      <span class="lineMask"><span>And tonight,</span></span>
+      <span class="lineMask"><span>we celebrate one more.</span></span>
+    </p>
+  </section>
+
+  <!-- ============ DATE — SWIPE TO REVEAL ============ -->
+  <section class="chapter date" id="date">
+    <p class="label">The date</p>
+    <div class="reveal-surface" id="dateSurface">
+      <div class="reveal-surface__under">
+        <span class="d-day">18</span>
+        <span class="d-month">november</span>
+        <span class="d-year">2026</span>
+      </div>
+      <div class="reveal-surface__silk" id="dateSilk">
+        <span class="silk__hint">Swipe to reveal</span>
+      </div>
+    </div>
+    <p class="micro" id="dateMicro">Drag across the silk</p>
+  </section>
+
+  <!-- ============ COUNTDOWN ============ -->
+  <section class="chapter countdown is-locked" id="countdown" aria-hidden="true">
+    <p class="label">The wait begins</p>
+    <div class="clock" id="clock">
+      <div class="unit"><div class="digits" data-unit="days"></div><span>days</span></div>
+      <i class="sep">:</i>
+      <div class="unit"><div class="digits" data-unit="hours"></div><span>hours</span></div>
+      <i class="sep">:</i>
+      <div class="unit"><div class="digits" data-unit="minutes"></div><span>minutes</span></div>
+      <i class="sep">:</i>
+      <div class="unit"><div class="digits" data-unit="seconds"></div><span>seconds</span></div>
+    </div>
+  </section>
+
+  <!-- ============ VENUE — PULL TO REVEAL ============ -->
+  <section class="chapter venue" id="venue">
+    <p class="label">Where?</p>
+    <div class="pull" id="pull">
+      <div class="pull__scene">
+        <img src="media/courtyard.jpg" alt="Pale arched colonnade at dusk" />
+        <div class="pull__scene-veil"></div>
+        <div class="pull__text">
+          <h3>The Garden Courtyard</h3>
+          <p class="pull__addr">Main Khayaban-e-Ittehad, DHA Phase VI, Karachi</p>
+          <a class="mapbtn" id="mapBtn"
+             href="https://www.google.com/maps/search/?api=1&amp;query=The+Garden+Courtyard+Khayaban-e-Ittehad+DHA+Phase+6+Karachi"
+             target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg>
+            <span>Open location</span>
+          </a>
+        </div>
+
+      </div>
+      <div class="pull__panel" id="pullPanel">
+        <span class="pull__hint">Pull to reveal</span>
+        <i class="pull__grip" aria-hidden="true"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TIME — DIAL ============ -->
+  <section class="chapter time" id="time">
+    <p class="label">When?</p>
+    <div class="dial" id="dial" role="slider" aria-label="Rotate to reveal the time"
+         aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0">
+      <svg viewBox="0 0 300 300" class="dial__svg" aria-hidden="true">
+        <circle class="dial__track" cx="150" cy="150" r="126" />
+        <circle class="dial__prog" cx="150" cy="150" r="126" />
+        <g class="dial__ticks" id="dialTicks"></g>
+      </svg>
+      <div class="dial__handle" id="dialHandle" aria-hidden="true"></div>
+      <div class="dial__center">
+        <span class="dial__time" id="dialTime">9:00 <em>PM</em></span>
+        <span class="dial__hint" id="dialHint">Rotate</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CELEBRATION ============ -->
+  <section class="celebrate" id="celebrate">
+    <h2 class="celebrate__head">
+      <span class="lineMask"><span>Tonight,</span></span>
+      <span class="lineMask"><span>we celebrate.</span></span>
+    </h2>
+  </section>
+
+  <!-- ============ FINAL ============ -->
+  <section class="final" id="final">
+    <h2 class="final__head">The evening awaits.</h2>
+    <div class="final__names">
+      <span>Areeba</span><em>&amp;</em><span>Zayan</span>
+    </div>
+    <p class="final__word">Valima</p>
+    <p class="final__note">We would love to have you with us.</p>
+    <button class="cta" id="saveDate" type="button"><span>Save the date</span></button>
+    <p class="final__tag">#AreebaFoundHerZayan</p>
+  </section>
+  <div class="frame-bottom" aria-hidden="true"></div>
+</main>
+
+<script src="vendor/lenis.min.js"></script>
+<script src="vendor/gsap.min.js"></script>
+<script src="vendor/ScrollTrigger.min.js"></script>
+<script src="vendor/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

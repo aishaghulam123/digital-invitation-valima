@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" fill="none">
+  <g stroke="#c9a24d" stroke-width="1.2" stroke-linecap="round" fill="none" opacity="0.85">
+    <!-- centre crest -->
+    <path d="M600 14v34"/>
+    <path d="M600 48c-14-6-22-18-22-30 0 0 12 4 16 14"/>
+    <path d="M600 48c14-6 22-18 22-30 0 0-12 4-16 14"/>
+    <circle cx="600" cy="54" r="5"/>
+    <!-- main sweeping vines -->
+    <path d="M600 60C520 60 470 34 392 34c-70 0-108 32-176 32-56 0-96-16-136-38"/>
+    <path d="M600 60c80 0 130-26 208-26 70 0 108 32 176 32 56 0 96-16 136-38"/>
+    <!-- secondary vines -->
+    <path d="M600 66C512 78 452 58 372 58c-72 0-112 26-176 26-48 0-88-10-116-24" opacity=".6"/>
+    <path d="M600 66c88 12 148-8 228-8 72 0 112 26 176 26 48 0 88-10 116-24" opacity=".6"/>
+    <!-- leaves left -->
+    <path d="M470 44c-10-12-26-14-38-8 6 12 22 18 38 8z"/>
+    <path d="M330 46c-12-10-28-8-38 0 8 11 26 14 38 0z"/>
+    <path d="M198 56c-11-11-27-11-38-4 7 12 24 16 38 4z"/>
+    <!-- leaves right -->
+    <path d="M730 44c10-12 26-14 38-8-6 12-22 18-38 8z"/>
+    <path d="M870 46c12-10 28-8 38 0-8 11-26 14-38 0z"/>
+    <path d="M1002 56c11-11 27-11 38-4-7 12-24 16-38 4z"/>
+    <!-- blossoms -->
+    <g opacity=".9">
+      <circle cx="536" cy="47" r="4"/><circle cx="664" cy="47" r="4"/>
+      <circle cx="404" cy="36" r="5"/><circle cx="796" cy="36" r="5"/>
+      <circle cx="262" cy="55" r="3.4"/><circle cx="938" cy="55" r="3.4"/>
+      <circle cx="120" cy="46" r="3"/><circle cx="1080" cy="46" r="3"/>
+    </g>
+    <!-- petal detail on the larger blossoms -->
+    <path d="M404 30v-8M404 42v8M396 36h-8M412 36h8"/>
+    <path d="M796 30v-8M796 42v8M788 36h-8M804 36h8"/>
+    <!-- fine tendrils -->
+    <path d="M96 44c-18-6-34-2-48 10" opacity=".55"/>
+    <path d="M1104 44c18-6 34-2 48 10" opacity=".55"/>
+  </g>
+</svg>
